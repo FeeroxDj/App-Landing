@@ -40,30 +40,51 @@ body{
     gap: 67px;
     justify-content: center ;
     flex-wrap: wrap;
+    margin-bottom: 109;
 
 }
 .item {
     width: 140px;
 }
+.item img{
+    margin-bottom: 30px;
+}
 .item h3{
     color: rgb(64, 116, 248);
     font-size: 14px;
     font-weight: 700;
-    
+    margin: 0 0 93px;
+    margin-bottom: 33px;
 }
 .item p{
     color: rgb(173, 179, 203);
-    f
     font-size: 11px;
     font-weight: 500;
-    line-height: 13px;
-    letter-spacing: 0%;
-    text-align: center;
+    margin: 0 0 33px;
+   
 }
 .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 111px;
+}
+.buttons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 43px;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
 }
 .buttons-readmore {
+    color: rgb(212, 63, 63);
+    background: rgb(255, 215, 215);
 }
 .buttons-getstarted {
+    color: rgb(58, 121, 255);
+    background: rgb(210, 225, 255);
 }
  
